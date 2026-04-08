@@ -15,7 +15,7 @@
 :root {
   --background: #ffffff;
   --background-secondary: #f8fafc;
-  --foreground: #0f172a;
+--foreground: #0f172a;
   --foreground-muted: #64748b;
   --border: #e2e8f0;
   --accent: #6366f1;
@@ -26,7 +26,7 @@
 .dark {
   --background: #0a0a0f;
   --background-secondary: #111118;
-  --foreground: #f1f5f9;
+--foreground: #f1f5f9;
   --foreground-muted: #94a3b8;
   --border: #1e1e2e;
   --accent: #818cf8;
@@ -36,7 +36,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-background-secondary: var(--background-secondary);
-  --color-foreground: var(--foreground);
+--color-foreground: var(--foreground);
   --color-foreground-muted: var(--foreground-muted);
   --color-border: var(--border);
   --color-accent: var(--accent);

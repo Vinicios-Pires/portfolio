@@ -32,12 +32,20 @@ export interface Experience {
   tech: string[];
 }
 
+export interface ProjectCategory {
+  slug: string;
+  label: Translated<string>;
+}
+
 export interface Project {
   title: string;
   description: Translated<string>;
   tech: string[];
   liveUrl?: string;
   repoUrl?: string;
+  category?: string;
+  stars?: number;
+  source?: "github" | "static";
 }
 
 export interface Education {

@@ -5,8 +5,11 @@ import { About } from "@/components/sections/About";
 import { Skills } from "@/components/sections/Skills";
 import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
+import { getProjects } from "@/lib/github";
 
-export default function Home() {
+export default async function Home() {
+  const projects = await getProjects();
+
   return (
     <>
       <Navbar />
@@ -15,7 +18,7 @@ export default function Home() {
         <About />
         <Skills />
         <Experience />
-        <Projects />
+        <Projects initialProjects={projects} />
       </main>
       <Footer />
     </>

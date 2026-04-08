@@ -5,15 +5,16 @@ import { Mail } from "lucide-react";
 import { useLang } from "@/context/LangContext";
 import { siteConfig } from "@/lib/data";
 
+const YEAR = new Date().getFullYear();
+
 export function Footer() {
   const { lang } = useLang();
-  const year = new Date().getFullYear();
 
   return (
     <footer className="border-t border-border bg-background-secondary">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-foreground-muted">
-          © {year} {siteConfig.name}.{" "}
+          © {YEAR} {siteConfig.name}.{" "}
           {lang === "pt" ? "Todos os direitos reservados." : "All rights reserved."}
         </p>
 
