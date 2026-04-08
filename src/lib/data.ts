@@ -50,7 +50,16 @@ export const aboutContent = {
 export const skillGroups: SkillGroup[] = [
   {
     category: { pt: "Front-end", en: "Front-end" },
-    skills: ["React", "Next.js", "Redux", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
+    skills: [
+      "React",
+      "Next.js",
+      "Redux",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+    ],
   },
   {
     category: { pt: "Back-end", en: "Back-end" },
@@ -106,7 +115,17 @@ export const experiences: Experience[] = [
         "Collaboration focused on clean code, Git versioning, and code reviews.",
       ],
     },
-    tech: ["React", "Node.js", "TypeScript", "PostgreSQL", "Docker", "AWS", "Jest", "Cypress", "Git"],
+    tech: [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "Jest",
+      "Cypress",
+      "Git",
+    ],
   },
   {
     role: {
@@ -169,22 +188,10 @@ export const education: Education[] = [
       en: "Bachelor's in Data Science (in progress)",
     },
     institution: "UNIVESP – Universidade Virtual do Estado de São Paulo",
-    period: "2023 – 2029",
+    period: "2025 – 2029",
     notes: {
       pt: "Ênfase em estatística, programação, machine learning e análise de dados.",
       en: "Focus on statistics, programming, machine learning, and data analysis.",
-    },
-  },
-  {
-    degree: {
-      pt: "Formação Full Stack Web Developer",
-      en: "Full Stack Web Developer Bootcamp",
-    },
-    institution: "Driven Education",
-    period: "Jan/2022 – Out/2022",
-    notes: {
-      pt: "Desenvolvimento web completo com React, Node.js, TypeScript, Prisma, PostgreSQL, MongoDB, Redis, Docker e AWS. Testes unitários, de integração e E2E.",
-      en: "Full web development with React, Node.js, TypeScript, Prisma, PostgreSQL, MongoDB, Redis, Docker, and AWS. Unit, integration, and E2E testing.",
     },
   },
   {
@@ -197,6 +204,18 @@ export const education: Education[] = [
     notes: {
       pt: "Base sólida em lógica, álgebra, cálculo e matemática discreta.",
       en: "Strong foundation in logic, algebra, calculus, and discrete mathematics.",
+    },
+  },
+  {
+    degree: {
+      pt: "Formação Full Stack Web Developer",
+      en: "Full Stack Web Developer Bootcamp",
+    },
+    institution: "Driven Education",
+    period: "Jan/2022 – Out/2022",
+    notes: {
+      pt: "Desenvolvimento web completo com React, Node.js, TypeScript, Prisma, PostgreSQL, MongoDB, Redis, Docker e AWS. Testes unitários, de integração e E2E.",
+      en: "Full web development with React, Node.js, TypeScript, Prisma, PostgreSQL, MongoDB, Redis, Docker, and AWS. Unit, integration, and E2E testing.",
     },
   },
 ];
