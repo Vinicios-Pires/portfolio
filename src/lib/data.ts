@@ -14,8 +14,8 @@ export const siteConfig: SiteConfig = {
     en: "Full Stack Developer",
   },
   tagline: {
-    pt: "Construindo aplicações web escaláveis com foco em qualidade e performance.",
-    en: "Building scalable web applications focused on quality and performance.",
+    pt: "Construindo aplicações web escaláveis com foco em qualidade e performance. Com experiência em React, Node.js e TypeScript, desenvolvo desde sistemas ERP corporativos até soluções de e-commerce, sempre priorizando clean code, testes automatizados e entrega contínua.",
+    en: "Building scalable web applications focused on quality and performance. With experience in React, Node.js, and TypeScript, I develop everything from corporate ERP systems to e-commerce solutions, always prioritizing clean code, automated testing, and continuous delivery.",
   },
   location: "Dois Córregos, SP – Brasil",
   email: "contato.viniciospires@gmail.com",
