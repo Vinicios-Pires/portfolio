@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Mail, MapPin } from "lucide-react";
 import { useLang } from "@/context/LangContext";
 import { siteConfig } from "@/lib/data";
+import { MatrixRain } from "@/components/ui/MatrixRain";
 
 export function Hero() {
   const { lang } = useLang();
@@ -11,8 +12,9 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[calc(100vh-72px)] flex items-center"
+      className="relative overflow-hidden min-h-[calc(100vh-72px)] flex items-center"
     >
+      <MatrixRain />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-20 w-full">
         <div className="max-w-2xl">
           <p className="text-sm font-medium text-accent mb-4 tracking-wider uppercase">
